@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-15T23:05:59 IST" name="Suite" finished-at="2024-09-15T23:06:24 IST" duration-ms="25444">
+    <groups>
+    </groups>
+    <test started-at="2024-09-15T23:05:59 IST" name="LoginTestOnChrome" finished-at="2024-09-15T23:06:24 IST" duration-ms="25444">
+      <class name="qa.LoginTest">
+        <test-method is-config="true" signature="beforeMethodMethod(java.lang.String)[pri:0, instance:qa.LoginTest@21e360a]" started-at="2024-09-15T23:05:59 IST" name="beforeMethodMethod" finished-at="2024-09-15T23:06:19 IST" duration-ms="19830" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodMethod -->
+        <test-method signature="enterLoginCredentials()[pri:0, instance:qa.LoginTest@21e360a]" started-at="2024-09-15T23:06:19 IST" name="enterLoginCredentials" finished-at="2024-09-15T23:06:22 IST" duration-ms="3167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterLoginCredentials -->
+        <test-method is-config="true" signature="afterMethodMethod()[pri:0, instance:qa.LoginTest@21e360a]" started-at="2024-09-15T23:06:22 IST" name="afterMethodMethod" finished-at="2024-09-15T23:06:24 IST" duration-ms="2368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodMethod -->
+      </class> <!-- qa.LoginTest -->
+    </test> <!-- LoginTestOnChrome -->
+  </suite> <!-- Suite -->
+</testng-results>
