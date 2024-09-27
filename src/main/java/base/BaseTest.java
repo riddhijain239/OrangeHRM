@@ -27,6 +27,7 @@ public class BaseTest {
 
 	@AfterMethod
 	public void afterMethodMethod() {
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.close();
 	}
 
